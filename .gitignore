@@ -9,3 +9,11 @@ target/
 build/
 .gradle/
 local.properties
+
+#Eclipse
+.classpath
+.project
+
+#javadoc
+doc/
+
