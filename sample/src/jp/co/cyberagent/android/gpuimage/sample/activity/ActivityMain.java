@@ -17,6 +17,7 @@
 package jp.co.cyberagent.android.gpuimage.sample.activity;
 
 import jp.co.cyberagent.android.gpuimage.sample.R;
+import com.ict.camera.CameraActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -40,7 +41,7 @@ public class ActivityMain extends Activity implements OnClickListener {
                 startActivity(ActivityGallery.class);
                 break;
             case R.id.button_camera:
-                startActivity(ActivityCamera.class);
+                startActivity(CameraActivity.class);
                 break;
 
             default:
